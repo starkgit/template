@@ -24,7 +24,8 @@ git reset -- . # 从暂存区恢复到工作文件
 
 git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
 
-git ci <file> git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　git ci -am "some comments"
+git ci <file> git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+git ci -am "some comments"
 
 git ci --amend # 修改最后一次提交记录
 
